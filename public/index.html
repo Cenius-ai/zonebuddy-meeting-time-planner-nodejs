@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Zonebuddy Meeting Time Planner</title>
+    <meta
+      name="description"
+      content="Zonebuddy shows overlapping working hours across time zones and ranks meeting slots that work for every member of a distributed team."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" data-nav>
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="9.25" fill="none" stroke="currentColor" stroke-width="1.6" />
+              <path d="M3.2 12h17.6M12 2.9c2.6 2.4 4.1 5.7 4.1 9.1s-1.5 6.7-4.1 9.1c-2.6-2.4-4.1-5.7-4.1-9.1S9.4 5.3 12 2.9Z" fill="none" stroke="currentColor" stroke-width="1.2" />
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Zonebuddy</span>
+            <span class="brand-sub">Meeting Time Planner</span>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="Primary">
+          <a id="nav-dashboard" href="/app" data-nav hidden>Dashboard</a>
+        </nav>
+        <div class="topbar-actions" id="session-area">
+          <a class="btn btn-quiet" href="/login" data-nav>Sign in</a>
+        </div>
+      </header>
+      <div id="context-bar" class="context-bar" hidden></div>
+      <main id="main" tabindex="-1">
+        <div id="view" class="view">
+          <div class="boot-state" role="status">Loading Zonebuddy…</div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>
+          <strong>Zonebuddy</strong> — overlap-first meeting planning for distributed teams.
+          <span class="footer-note">Runs on your own server: no accounts with third parties, no outbound calls.</span>
+        </p>
+      </footer>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
