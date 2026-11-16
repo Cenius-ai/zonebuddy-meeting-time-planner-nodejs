@@ -1,0 +1,16 @@
+{
+  "name": "zonebuddy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zonebuddy Meeting Time Planner — see overlapping working hours and find meeting slots for distributed teams.",
+  "license": "MIT",
+  "main": "main.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "seed": "node main.js --seed"
+  }
+}
