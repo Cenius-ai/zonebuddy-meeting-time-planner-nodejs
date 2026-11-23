@@ -40,7 +40,7 @@ See [`INSTALL.md`](INSTALL.md) for full setup and usage instructions.
 
 ## Architecture
 
-Folder layout: `data/`, `public/`, `test/`. Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. Built in Node.js (29 files). For environment-specific setup, see [`INSTALL.md`](INSTALL.md).
+Folder layout: `data/`, `public/`, `test/`. Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. Built in Node.js (18 files). For environment-specific setup, see [`INSTALL.md`](INSTALL.md).
 
 ## Usage guide
 
